@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://HUD/End.gd" type="Script" id=1]
+
+[node name="End" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_right = 1024.0
+margin_bottom = 500.0
+text = "You Died! Thanks for playing!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Play" type="Button" parent="."]
+margin_left = 200.0
+margin_top = 350.0
+margin_right = 400.0
+margin_bottom = 450.0
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 600.0
+margin_top = 350.0
+margin_right = 800.0
+margin_bottom = 450.0
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
