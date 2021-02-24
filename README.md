@@ -10,7 +10,7 @@ Includes 2 "Shoot" buttons (Space bar and shift)
 
 ## References
 Kenney.nl,
-https://commons.wikimedia.org/wiki/File:The_Great_Orion_Nebula_in_Narrowband.jpg
+https://commons.wikimedia.org/wiki/File:The_Great_Orion_Nebula_in_Narrowband.jpg, https://opengameart.org/content/explosion-sheet
 
 ## Future Development
 Push to activate shield
