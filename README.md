@@ -9,7 +9,7 @@ Includes WASD mappings (up, left, down, right) and escape to quit.
 Includes 2 "Shoot" buttons (Space bar and shift)
 
 ## References
-Kenney.nl
+Kenney.nl,
 https://commons.wikimedia.org/wiki/File:The_Great_Orion_Nebula_in_Narrowband.jpg
 
 ## Future Development
